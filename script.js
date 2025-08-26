@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Create iframe dynamically
     const iframe = document.createElement("iframe");
-    iframe.src = `https://player.kick.com/${username}`;
+    iframe.src = `https://player.kick.com/${username}?autoplay=true&muted=false`;
     iframe.height = "100%";
     iframe.width = "100%";
     iframe.frameBorder = "0";
